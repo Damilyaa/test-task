@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style-signup.css">
+</head>
+<body>
+    <div class="header">
+        <div class="back" id="back">
+            <a href="login.html"><img src="assets/arrow.png" alt="arrow"></a>
+        </div>
+        <div class="info">
+            <h1>Регистрация</h1>
+            <div class="Signup">
+                <p>Уже есть аккаунт?</p>
+                <a href="login.html">Войти в существующий</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="Forms">
+        <form id="signup-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="first-name">Имя</label>
+                <input type="text" id="first-name" name="first-name" required>
+                <span id="first-name-error" class="error"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="last-name">Фамилия</label>
+                <input type="text" id="last-name" name="last-name" required>
+                <span id="last-name-error" class="error"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <span id="email-error" class="error"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Пароль</label>
+                <div class="password-container">
+                    <input type="password" id="password" name="password" required>
+                    <img src="assets/eye-off.png" alt="eye" id="eye-icon" class="eye-icon">
+                </div>
+                <span id="password-error" class="error"></span>
+            </div>
+            
+
+            <div class="form-group">
+                <label for="password-confirm">Подтверждение пароля</label>
+                <input type="password" id="password-confirm" name="password-confirm" required>
+                <span id="password-confirm-error" class="error"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="birth-day">Дата рождения</label>
+                <input type="date" id="birth-day" name="birth-day" required>
+                <span id="birth-day-error" class="error"></span>
+            </div>
+
+            <div class="button-container">
+                <button type="submit" id="form-button" disabled>Отправить</button>
+            </div>
+            
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
