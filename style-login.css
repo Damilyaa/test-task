@@ -175,15 +175,14 @@ body {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    padding: 10px 0px;
+    padding: 10px 0;
     font-size: 14px;
     font-weight: bold;
     border-radius: 10px;
-    border-color: #404040;
+    border: 1px solid #404040; 
     cursor: pointer;
     width: 156px;
     height: 48px;
-    border: none;
     background-color: #fff;
     color: #333;
 }
