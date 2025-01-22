@@ -27,6 +27,7 @@ body {
     width:375px;
     color: #f0f0f0;
     text-align: start;
+    margin-top: 32px;
 }
 
 .header .logo {
