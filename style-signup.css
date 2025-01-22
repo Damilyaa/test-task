@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 376px;
+    margin: 0 auto;
+}
+
+.header {
+    gap: 32px;
+    background-color: #051525;
+    background-image: url('assets/Star.png');
+    background-size: cover;
+    background-position: center;
+    padding: 32px;
+    color: #f0f0f0;
+    text-align: start;
+    width: 375px;
+    padding-top: 50px;
+}
+
+.header .back {
+    display: flex;
+    align-items: center;
+    padding-bottom: 32px;
+}
+
+
+.header .info h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    padding-bottom: 12px;
+}
+
+.header .info p {
+    font-size: 12px;
+}
+
+.header .info a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 12px;
+}
+
+.header .info .Signup {
+    display: flex;
+    gap: 6px;
+}
+
+.header .info .Signup a {
+    text-decoration: underline;
+    color: #4D81E7;
+}
+
+.Forms {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 375px;
+    flex-direction: column;
+    text-align: left;
+}
+
+.full-name {
+    display: flex;
+    gap: 20px;
+}
+
+.form-group {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: grey;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.form-group .error {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
+
+.dob-container {
+    position: relative;
+}
+
+.calendar-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 16px;
+}
+
+.password-container {
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 16px;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#form-button {
+    background-color: #1D61E7;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 10px;
+    width:327px;
+    height:48px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+#form-button:disabled {
+    background-color: #ccc; 
+    cursor: not-allowed;
+    transform: scale(1); 
+}
+
+#form-button:not(:disabled):hover {
+    background-color: #133373; 
+    transform: scale(1.05);
+}
