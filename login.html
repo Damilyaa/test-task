@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход</title>
+    <link rel="stylesheet" href="style-login.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo" id="logo">
+            <img src="assets/Logo.png" alt="Logo">
+        </div>
+        <div class="info">
+            <h1>Войти в аккаунт</h1>
+            <div class="Signup">
+                <p>Нет аккаунта?</p>
+                <a href="signup.html" href="signup.html">Зарегестрироваться</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="Forms">
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+                <span id="email-error" class="error"></span>
+
+                <label for="login-password">Пароль</label>
+                <div class="password-container">
+                    <input type="password" id="login-password" name="login-password" required>
+                    <img src="assets/eye-off.png" alt="eye" id="login-eye-icon" class="eye-icon">
+                </div>
+                <span id="login-password-error" class="error"></span>
+            </div>
+
+            <div class="under-form">
+                <div class="check-box" id="remember-me">
+                    <img src="assets/check-off.png" alt="Checkbox" id="checkbox-img">
+                    <p>Запомнить меня</p>
+                </div>
+                <div class="Forgot">
+                    <a href="#">Забыли пароль?</a>
+                </div>
+            </div>
+
+            <div class="Loginbt">
+                <button type="submit">Войти</button>
+                <div class="or">
+                    <p>Войти через</p>
+                </div>
+            </div>
+
+            <div class="Login-option-btn">
+                <button><img src="assets/google.png" alt="Google">Google</button>
+                <button><img src="assets/facebook.png" alt="Facebook">Facebook</button>
+            </div>
+        </form>
+
+        <div class="footer">
+            При регистрации вы соглашаетесь с <strong>Условиями обслуживания</strong> и <strong>Соглашением об обработке данных</strong>.
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
