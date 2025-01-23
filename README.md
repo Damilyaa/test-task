@@ -1,7 +1,8 @@
 # Как запустить проект
 
 ## Посмотреть проект:
-#### https://test-task-rose-iota.vercel.app/signup.html
+#### https://test-task-rose-iota.vercel.app/signup.html     (Sign up page)
+#### https://test-task-rose-iota.vercel.app/index.html      (Log In page)
 
 ## Клонировать репозиторий:
 git clone https://github.com/ваш-username/ваш-репозиторий.git
