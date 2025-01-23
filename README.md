@@ -5,7 +5,7 @@
 #### https://test-task-rose-iota.vercel.app/index.html      (Log In page)
 
 ## Клонировать репозиторий:
-git clone https://github.com/ваш-username/ваш-репозиторий.git
+git clone https://github.com/Damilyaa/test-task.git
 
 Откройте проект в браузере:
 
